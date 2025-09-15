@@ -22,6 +22,71 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#affectsDiet -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#affectsDiet">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Condition"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#celebratesFestival -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#celebratesFestival">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Festival"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Nutrient"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#cookedAs -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#cookedAs">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CookingMethod"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#famousForFood -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#famousForFood">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasCondition -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasCondition">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Condition"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasCuisine -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasCuisine">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Culture"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cuisine"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasFriend -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasFriend">
@@ -29,6 +94,15 @@
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#IrreflexiveProperty"/>
         <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
         <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasLandmark -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasLandmark">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Landmark"/>
     </owl:ObjectProperty>
     
 
@@ -43,10 +117,47 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasSymptom -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasSymptom">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Condition"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Disease"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Symptom"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasTerrainType -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasTerrainType">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#TerrainType"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasTrait -->
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasTrait">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasTransportPossibility -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#hasTransportPossibility">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#incompatibleWith -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#incompatibleWith">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
     </owl:ObjectProperty>
     
 
@@ -67,7 +178,6 @@
 
     <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#obtainedFrom">
         <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Ingredient"/>
-        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Place"/>
     </owl:ObjectProperty>
     
 
@@ -119,6 +229,25 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#servesDish -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#servesDish">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cuisine"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#similarTo -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#similarTo">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#SymmetricProperty"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+    </owl:ObjectProperty>
+    
+
+
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -127,6 +256,28 @@
     ///////////////////////////////////////////////////////////////////////////////////////
      -->
 
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#foundingYear -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#foundingYear">
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+        <rdfs:domain rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Landmark"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:onDatatype rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+                <owl:withRestrictions rdf:parseType="Collection">
+                    <rdf:Description>
+                        <xsd:minInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">-5000</xsd:minInclusive>
+                    </rdf:Description>
+                    <rdf:Description>
+                        <xsd:maxInclusive rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2025</xsd:maxInclusive>
+                    </rdf:Description>
+                </owl:withRestrictions>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
     
 
 
@@ -200,6 +351,50 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Alcohol -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Alcohol">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Drinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Allergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Allergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Apple -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Apple">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fruit"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vitamin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#AppleJuice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#AppleJuice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Juice"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vitamin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Baker -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Baker">
@@ -226,10 +421,116 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Banana -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Banana">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fruit"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vitamin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Beef -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Beef">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Meat"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fat"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Protein"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Beer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Beer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Alcohol"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Bike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Bike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Boat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Boat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Boiling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Boiling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CookingMethod"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Bread -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Bread">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Carbohydrate"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Bus -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Bus">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cancer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cancer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Disease"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Car -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Car">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Carbohydrate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Carbohydrate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Nutrient"/>
     </owl:Class>
     
 
@@ -242,9 +543,97 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Chicken -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Chicken">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Meat"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Protein"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CocaCola -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CocaCola">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Soda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cooking -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cooking">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CookingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CookingMethod -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CookingMethod"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cuisine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Cuisine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Culture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Culture"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Disease -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Disease">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Drinks -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Drinks">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#DriveableCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#DriveableCity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+    </owl:Class>
     
 
 
@@ -256,10 +645,51 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fanta -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fanta">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Soda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Nutrient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Festival -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Festival">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#SpecialEvent"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fever -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fever">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Symptom"/>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fish -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fish">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Ingredient"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#FlatTerrain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#FlatTerrain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#TerrainType"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#MountainousTerrain"/>
     </owl:Class>
     
 
@@ -274,7 +704,47 @@
 
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Consumables"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fruit -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fruit">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#GlutenAllergy -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#GlutenAllergy">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Allergy"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#affectsDiet"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Flour"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Grilling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Grilling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#CookingMethod"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Headache -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Headache">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pain"/>
+    </owl:Class>
     
 
 
@@ -287,8 +757,36 @@
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Ingredient -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Ingredient">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Resource"/>
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Juice -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Juice">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Drinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Landmark -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Landmark"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Language -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Language">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#LivingCondition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#LivingCondition"/>
     
 
 
@@ -307,6 +805,30 @@
             </owl:Class>
         </owl:equivalentClass>
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Meat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Meat">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#MegaCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#MegaCity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Metro -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Metro">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
     </owl:Class>
     
 
@@ -339,17 +861,39 @@
     
 
 
-    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Occupation -->
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#MountainousTerrain -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Occupation"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#MountainousTerrain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#TerrainType"/>
+    </owl:Class>
     
 
 
-    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Olives -->
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Muscleache -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Olives">
-        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Ingredient"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Muscleache">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pain"/>
     </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Nutrient -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Nutrient"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Obesity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Obesity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Condition"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Occupation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Occupation"/>
     
 
 
@@ -361,15 +905,69 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pain -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pain">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Symptom"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pear -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pear">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fruit"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vitamin"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Person"/>
     
 
 
-    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Place -->
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Plane -->
 
-    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Place"/>
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Plane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Meat"/>
+        <rdfs:subClassOf>
+            <owl:Class>
+                <owl:intersectionOf rdf:parseType="Collection">
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Fat"/>
+                    </owl:Restriction>
+                    <owl:Restriction>
+                        <owl:onProperty rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#containsNutrient"/>
+                        <owl:someValuesFrom rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Protein"/>
+                    </owl:Restriction>
+                </owl:intersectionOf>
+            </owl:Class>
+        </rdfs:subClassOf>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Protein -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Protein">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Nutrient"/>
+    </owl:Class>
     
 
 
@@ -379,10 +977,126 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Soda -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Soda">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Drinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#SpecialEvent -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#SpecialEvent">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Sprite -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Sprite">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Soda"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Sugar -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Sugar">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Ingredient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Symptom -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Symptom">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Health"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#TerrainType -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#TerrainType"/>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Tool -->
 
     <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Tool">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Resource"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Tradition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Tradition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Culture"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Train -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Train">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vegetables -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vegetables">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Food"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vitamin -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Vitamin">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Nutrient"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Walk -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Walk">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Transport"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#WalkableCity -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#WalkableCity">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#City"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Water -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Water">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Drinks"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Whine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Whine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Alcohol"/>
     </owl:Class>
     
 
@@ -402,6 +1116,7 @@
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Pepijn">
         <rdf:type rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Baker"/>
+        <untitled-ontology-3:hasCondition rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#glutenallergy1"/>
         <untitled-ontology-3:producesFood rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#bread1"/>
         <untitled-ontology-3:requiresIngredient rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#flour1"/>
         <untitled-ontology-3:requiresTool rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#oven1"/>
@@ -419,10 +1134,26 @@
     
 
 
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#chicken1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#chicken1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Chicken"/>
+    </owl:NamedIndividual>
+    
+
+
     <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#flour1 -->
 
     <owl:NamedIndividual rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#flour1">
         <rdf:type rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#Flour"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#glutenallergy1 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#glutenallergy1">
+        <rdf:type rdf:resource="http://www.semanticweb.org/brien/ontologies/2025/8/untitled-ontology-3#GlutenAllergy"/>
     </owl:NamedIndividual>
     
 
